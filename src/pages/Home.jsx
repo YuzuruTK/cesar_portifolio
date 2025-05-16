@@ -134,8 +134,7 @@ const Home = () => {
                 <br />
                 <Title variants={itemVariants}>escritor e storyteller</Title>
                 <Description variants={itemVariants}>
-                    Estudante de Publicidade com foco em storytelling, branding e narrativas visuais. 
-                    Seus projetos buscam gerar conexão e reflexão, sempre pautados pela ética, sensibilidade e um olhar atento ao comportamento humano.
+                    Estudante de Publicidade com foco em storytelling, branding e narrativas visuais.
                 </Description>
                 <div>
                     <CTAButton
