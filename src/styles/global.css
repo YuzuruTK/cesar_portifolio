@@ -1,0 +1,187 @@
+/* Global styles with Persona-inspired UI */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700;900&display=swap');
+
+:root {
+    /* Dark theme variables (default) */
+        --primary: #4361EE;     /* Highlight color */
+    --secondary: #ADB5BD;   /* Secondary muted UI */
+    --background: #0D1B2A;  /* Dark background base */
+    --text: #F1F3F5;        /* Light text for contrast */
+    --accent: #D9A441;      /* Accent (gold) */
+    --card-bg: #1A2B3C;     /* Slightly lighter than background */
+    --nav-bg: #0D1B2A;      /* Seamless with background */
+    --danger: #A4161A;      /* Alerts or errors */
+
+    /* Animation variables */
+    --transition-speed: 0.3s;
+    --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light theme variables */
+[data-theme='light'] {
+    --primary: #4361EE;     /* Primary brand color */
+    --secondary: #ADB5BD;   /* Secondary elements */
+    --background: #F1F3F5;  /* Soft light background */
+    --text: #0D1B2A;        /* Strong contrast text */
+    --accent: #D9A441;      /* Accent (buttons, hovers) */
+    --card-bg: #f3f3f3;     /* Clean white for cards */
+    --nav-bg: #d6dadf;      /* Muted navbar background */
+    --danger: #A4161A;      /* Alerts or errors */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    transition: background-color var(--transition-speed) var(--transition-function);
+    overflow-x: hidden;
+    background-image: url("../assets/background-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+/* Persona-style underline for headings */
+h2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent);
+    transform: skewX(-20deg);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color var(--transition-speed) var(--transition-function);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--accent);
+    color: var(--text);
+    border: none;
+    transform: skewX(-10deg);
+    transition: all var(--transition-speed) var(--transition-function);
+}
+
+button:hover {
+    background-color: var(--secondary);
+    transform: skewX(-10deg) scale(1.05);
+}
+
+/* Persona-style card */
+.persona-card {
+    background-color: var(--card-bg);
+    border-radius: 0;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    position: relative;
+    overflow: hidden;
+    transition: transform var(--transition-speed) var(--transition-function);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.persona-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent);
+    transform: translateX(-100%);
+    transition: transform 0.5s var(--transition-function);
+}
+
+.persona-card:hover {
+    transform: translateY(-5px);
+}
+
+.persona-card:hover:before {
+    transform: translateX(0);
+}
+
+/* Container for page content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Page transitions */
+.page-enter {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.page-exit {
+    opacity: 1;
+}
+
+.page-exit-active {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 0 1.5rem;
+    }
+}

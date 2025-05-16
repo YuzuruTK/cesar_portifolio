@@ -1,0 +1,13 @@
+name = "portifolio-buron"
+
+account_id = "4c689293fc6e443afcae6a1400994830"
+workers_dev = true
+
+main = "_worker.js"
+[site]
+bucket = "./dist"
+
+# Optional: custom domain
+[env.production]
+route = "buron.dev/*"
+# zone_id = "your-zone-id"
