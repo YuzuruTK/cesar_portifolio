@@ -206,7 +206,7 @@ const Contact = () => {
 
     return (
         <ContactContainer as={motion.div} variants={containerVariants} initial="hidden" animate="visible">
-            <SectionTitle as={motion.h2} variants={itemVariants}>Contact Me</SectionTitle>
+            <SectionTitle as={motion.h2} variants={itemVariants}>Entre em Contato</SectionTitle>
 
             <ContactGrid>
                 <ContactInfo variants={itemVariants}>

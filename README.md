@@ -28,9 +28,9 @@ style: |
 
 ## Quem é
 
-> Estudante de Publicidade com interesse profundo em narrativas visuais e estratégias criativas. 
-> Tenho afinidade com storytelling, branding e o estudo crítico da comunicação contemporânea. 
-> Meus projetos buscam provocar reflexão e gerar conexão, sempre com ética, sensibilidade e um olhar atento ao comportamento humano.
+> "Estudante de Publicidade com interesse profundo em narrativas visuais e estratégias criativas.
+> Tenho afinidade com storytelling, branding e o estudo crítico da comunicação contemporânea.
+> Meus projetos buscam provocar reflexão e gerar conexão, sempre com ética, sensibilidade e um olhar atento ao comportamento humano."
 
 --- 
 ## Sobre Mim
@@ -67,6 +67,7 @@ Recrutadores, redatores e empresas que necessitam de serviços em storytelling
 - Apresentar quem é Cesar Augusto e sua Jornada na area da Publicidade
 - Mostrar suas experiencias e habilidades
 - Formas de contata-lo
+- Utilizar uma Paleta de Cores Escolhida
 
 ---
 
@@ -83,20 +84,18 @@ Recrutadores, redatores e empresas que necessitam de serviços em storytelling
 ## Elementos Visuais
 
 **Cores Modo Escuro:**  
-- Azul escuro (#0D1B2A) e Dourado (#D9A441) cores primarias e secundarias: Escolha do Cesar 
+- Azul escuro (#0D1B2A) e Amarelo Escuro / Dourado (#D9A441) cores primarias e secundarias: Escolha do Cesar 
 - Branco (#F1F3F5) uso no Texto: Clareza nas informações
 
 **Cores Modo Claro:**
-- Branco (#F1F3F5) e Dourado (#D9A441) cores primarias e secundarias: Escolha do Cesar 
+- Branco (#F1F3F5) e Amarelo Escuro / Dourado (#D9A441) cores primarias e secundarias: Escolha do Cesar 
 - Azul escuro (#0D1B2A) uso no Texto: Clareza nas informações e escolha do Cesar
 
 ---
 
 ## Elementos Visuais
 
-**Formas:** Cantos retos, estrutura mais limpa e Minimalista
-
-**Tipografia:**  
+**Tipografia:**
 Optado por uma Tipografia com serifa, que passe um estilo mais profissional e refinado
 - Títulos: Playfair Display
 
