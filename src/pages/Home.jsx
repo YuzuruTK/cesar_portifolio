@@ -132,7 +132,7 @@ const Home = () => {
             <HeroContent as={motion.div} variants={containerVariants} initial="hidden" animate="visible">
                 <Name variants={itemVariants}>Cesar Lourenzon</Name>
                 <br />
-                <Title variants={itemVariants}>escritor e storyteller</Title>
+                <Title variants={itemVariants}>Escritor | Storyteller</Title>
                 <Description variants={itemVariants}>
                     Estudante de Publicidade com foco em storytelling, branding e narrativas visuais.
                 </Description>

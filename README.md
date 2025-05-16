@@ -32,11 +32,15 @@ style: |
 > Tenho afinidade com storytelling, branding e o estudo crítico da comunicação contemporânea. 
 > Meus projetos buscam provocar reflexão e gerar conexão, sempre com ética, sensibilidade e um olhar atento ao comportamento humano.
 
-
 --- 
 ## Sobre Mim
 
 Sua trajetória em Publicidade é marcada por uma abordagem analítica, introspectiva e comprometida com o impacto social da comunicação. Acredita que uma campanha bem feita não apenas vende — ela dialoga, ensina e transforma. Valoriza a clareza, a inteligência e o afeto como estratégias criativas.
+
+---
+## Publico Alvo
+
+Recrutadores, redatores e empresas que necessitam de serviços em storytelling
 
 ---
 
@@ -46,7 +50,9 @@ Sua trajetória em Publicidade é marcada por uma abordagem analítica, introspe
 - Participação em eventos com profissionais do mercado (como a RBS)
 - Desenvolvimento de peças e identidade visual em parceria com colegas
 - Escrita de contos e roteiros aplicados ao storytelling publicitário(Datasus, App de Ponto)
+
 ---
+
 ## Habilidades
 - Criação visual: princípios de design, estética e composição
 - Redação publicitária: linguagem persuasiva e adaptabilidade de tom
@@ -58,7 +64,7 @@ Sua trajetória em Publicidade é marcada por uma abordagem analítica, introspe
 
 ## Objetivos com o Portfólio
 
-- Apresentar quem é Cesar Augusto
+- Apresentar quem é Cesar Augusto e sua Jornada na area da Publicidade
 - Mostrar suas experiencias e habilidades
 - Formas de contata-lo
 
